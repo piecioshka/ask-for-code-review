@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+img {
+  width: 32px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin: 10px 0;
+  width: 760px;
+}
+
+@media screen and (max-width: 850px) {
+  label,
+  input,
+  textarea {
+    width: 100%;
+  }
+}
+
+input,
+textarea {
+  font-family: monospace;
+  padding: 5px;
+}
+
+button {
+  background-color: #3d98c9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button#restore {
+  background-color: #969696;
+}
+
+button.success {
+  background-color: #28a745 !important;
+}
+
+#settings {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

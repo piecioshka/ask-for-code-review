@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ask For Code Review Settings</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+  <div id="settings">
+    <h1><img src="icons/icon-48x48.png">Ask For Code Review Settings</h1>
+
+    <form id="settingsForm">
+      <label for="format">RegExp to parse <em>issueId</em>:</label>
+      <input type="text" id="format" value="">
+
+      <label for="issueUrl">Issue URL:</label>
+      <input type="text" id="issueUrl" size="100" value="">
+
+      <label for="message">Message:</label>
+      <input type="text" id="message" size="100" value="">
+
+      <label for="pages">Supported pages (one per line):</label>
+      <textarea id="pages" rows="5" cols="100" value=""></textarea>
+
+      <button id="save" type="submit">Save</button>
+      <button id="restore" type="button">Restore</button>
+    </form>
+  </div>
+
+  <script src="shared/messages.js"></script>
+  <script src="shared/defaultSettings.js"></script>
+  <script src="shared/helper.js"></script>
+  <script src="settings.js"></script>
+</body>
+</html>
