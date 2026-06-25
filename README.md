@@ -67,4 +67,4 @@ https://github.com/piecioshka/ask-for-code-review/blob/main/privacy-policy.md
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2026
+[The MIT License](https://piecioshka.mit-license.org) @ 2026
